@@ -45,6 +45,16 @@ Output 2:
  3
  
 """
+"""
+hint 1
+
+Hint: Sort the array.
+
+Think of how you can use the sorted array to find the minimum XOR.
+
+"""
+
+
 """ accepted solution """
 # @param A : list of integers
 # @return an integer
