@@ -64,7 +64,7 @@ Explanation 2:
 """ accepted solution """
 # @param A : tuple of integers
 # @return an integer
-def singleNumber(self, A):
+def singleNumber( A):
     num = A[0]
     for i in A[1:]:
         num = num^i

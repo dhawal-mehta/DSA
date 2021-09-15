@@ -54,7 +54,7 @@ Now if we calculate the prefix sum at every index, we get [10, 55, 45, 25, 25].
 # @param A : integer
 # @param B : list of list of integers
 # @return a list of integers
-def solve(self, A, B):
+def solve( A, B):
     beggers = [0]*A
     for devotee in B:
         beggers[devotee[0]-1]+=devotee[2]

@@ -130,7 +130,7 @@ We traverse the array and if A[i] is in [1,N] range, we try to put in the index 
 # @param A : list of integers
 # @return an integer
 
-def firstMissingPositive(self, A):
+def firstMissingPositive( A):
     # partition
     n=len(A)
     end=0

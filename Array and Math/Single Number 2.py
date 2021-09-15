@@ -102,7 +102,7 @@ When the ith bit had appeared for the third time, clear the ith bit of both ones
 
 # @param A : tuple of integers
 # @return an integer
-def singleNumber(self, A):
+def singleNumber( A):
     INT_SIZE = 32
     res = 0
     for i in range(0,INT_SIZE):

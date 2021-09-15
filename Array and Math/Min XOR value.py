@@ -58,7 +58,7 @@ Think of how you can use the sorted array to find the minimum XOR.
 """ accepted solution """
 # @param A : list of integers
 # @return an integer
-def findMinXor(self, A):
+def findMinXor( A):
     A = sorted(A)
     minXor = (2**32)  - 1
     for i in range(len(A)-1):

@@ -54,7 +54,7 @@ print(A, BminusA + A)
 
 # @param A : tuple of integers
 # @return a list of integers
-def repeatedNumber(self, A):
+def repeatedNumber( A):
     n=len(A)
     sum=0
     squared_sum=0

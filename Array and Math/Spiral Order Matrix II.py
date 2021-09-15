@@ -83,7 +83,7 @@ Based on the constant row or column, you can predict when to change the directio
 """
 # @param A : integer
 # @return a list of list of integers
-def generateMatrix(self, A):
+def generateMatrix( A):
     row_top_left =0
     col_top_left =0
     

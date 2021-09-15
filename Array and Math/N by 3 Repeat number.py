@@ -59,7 +59,7 @@ Consequently, the answer will be one of the 2 elements left behind. If they are 
 
 # @param A : tuple of integers
 # @return an integer
-def repeatedNumber(self, A):
+def repeatedNumber( A):
     n=len(A)
     first_major=0
     second_major=0

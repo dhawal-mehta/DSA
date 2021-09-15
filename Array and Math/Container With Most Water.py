@@ -103,7 +103,7 @@ Else, it reduces to solving the same thing for a1, aN-1
 
 # @param A : list of integers
 # @return an integer
-def maxArea(self, A):
+def maxArea( A):
     
     maxarea = 0
     i=0
