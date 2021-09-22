@@ -101,7 +101,7 @@ Try to come up with a solution based on the previous 2 facts.
 
 """
 """ accpeted solution """
-def maxSubArray(self, A):
+def maxSubArray( A):
     
     max_yet = 0
     max_sum = 0

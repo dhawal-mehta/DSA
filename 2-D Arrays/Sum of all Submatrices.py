@@ -62,7 +62,7 @@ Number of ways to choose from bottom-right elements (N - X) * (N - Y)
 """
 # @param A : list of list of integers
 # @return an integer
-def solve(self, A):
+def solve( A):
     
     sum = 0
     for i in range(len(A)):

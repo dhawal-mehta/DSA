@@ -79,7 +79,7 @@ You can use 2 pointer technique to solve this question.
 """
 Accepted solution ( bad Approach )
 
-def subUnsort(self, A):
+def subUnsort(, A):
     A_dash = sorted(A)
     
     start = -1

@@ -56,7 +56,7 @@ If there are multiple B return the smallest value i*1009 + j.
 # @param A : list of list of integers
 # @param B : integer
 # @return an integer
-def solve(self, A, B):
+def solve(A, B):
     
     i=0
     j=len(A[0])-1

@@ -77,7 +77,7 @@ Find the smallest possible leftmost chunk using above idea and after that we can
 """accepted solution"""
 # @param A : list of integers
 # @return an integer
-def solve(self, A):
+def solve( A):
     cnt = 0
     ma = 0
     i = 0

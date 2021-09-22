@@ -62,7 +62,7 @@ Find the maximum answer from DP[i][j] for each (i,j)
 """ accepted solution """
 # @param A : list of list of integers
 # @return an integer
-def solve(self, A):
+def solve( A):
     for i in range(len(A)):  # suffix row sum
         for j in range(len(A[0])-1,0,-1 ):
             A[i][j-1] += A[i][j]

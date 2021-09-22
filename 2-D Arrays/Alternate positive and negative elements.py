@@ -80,20 +80,20 @@ We basically swap next positive element at even position from next negative elem
 """
 # @param A : list of integers
 # @return a list of integers
-def rotate(self,A, end ,start):
+def rotate(A, end ,start):
     temp = A[end]
     for i in range(end,start,-1):
         A[i] = A[i-1]
     A[start] = temp
     
-def solve(self, A):
+def solve( A):
     outOfPlace = -1
     for i in range(len(A)):
         
         if outOfPlace >= 0:
                 if  (A[i]<0  and A[outOfPlace]>=0) or (A[i]>=0 and A[outOfPlace]<0):
                     # print("test")
-                    self.rotate(A,i,outOfPlace)
+                    rotate(A,i,outOfPlace)
                     if i - outOfPlace > 1:
                         outOfPlace +=2
                     else:

@@ -50,7 +50,7 @@ Finally, traverse the modified array and set A[i] = A[i]/n.
 """accepted solution"""
 # @param A : list of integers
 # @return a list of integers
-def solve(self, A):
+def solve(A):
 
     i = 0
     

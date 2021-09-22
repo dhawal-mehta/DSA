@@ -96,7 +96,7 @@ Now, for any entry which is not in first row or first column, entry (r,c) is 1, 
 """
 # @param A : list of list of integers
 # @return the same list modified
-def setZeroes(self, A):
+def setZeroes( A):
     rowFlag = False
     colFlag = False
     m = len(A)
