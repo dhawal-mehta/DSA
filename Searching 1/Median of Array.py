@@ -1,8 +1,5 @@
 """Median of Array
-character backgroundcharacter
-Stuck somewhere?
-Ask for help from a TA & get it resolved
-Get help from TA
+
 
 Problem Description
 
