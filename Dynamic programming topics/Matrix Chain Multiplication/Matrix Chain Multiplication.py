@@ -105,7 +105,9 @@ class Solution:
         # for i in range(102):
         #     memo[0][i] = 0
             
-        
+        # it starts from 2 as min we need 2 matrix to multiply
+        # N+1 has no effect here as it inner loop fails for L=N , L in range(2,N) will also do
+        # i=>start, j=>end, L=>current length of Matrix chain
         for L in range(2, N+1):
             for i in range(1, N-L+1):
                 
