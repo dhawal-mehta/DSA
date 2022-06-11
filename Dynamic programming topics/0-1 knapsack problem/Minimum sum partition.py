@@ -39,10 +39,10 @@ Generate a 2D array for DP where, dp[index][sum] = min posssible difference, if 
 
 #User function Template for python3
 class Solution:
-	def minDifference(self, arr, n):
-		# code here
-		memo = {}
-		def util(arr,n, w, start):
+    def minDifference(self, arr, n):
+        # code here
+        memo = {}
+        def util(arr,n, w, start):
             
             if w < 1:
                 return 0 
@@ -69,7 +69,6 @@ class Solution:
         # print(temp)
         
         return sum(arr) - 2*temp
-                
         
 		 
 
