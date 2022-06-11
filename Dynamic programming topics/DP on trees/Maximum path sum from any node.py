@@ -87,12 +87,8 @@ class Solution:
         self.util(root)
         return self.ans
         
-        
-#{ 
-#  Driver Code Starts
-#Initial Template for Python 3
 
-#Contributed by Suman Rana
+## alternate
 import sys
 sys.setrecursionlimit(100000)
 from collections import deque
