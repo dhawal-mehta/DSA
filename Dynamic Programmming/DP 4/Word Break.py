@@ -127,10 +127,10 @@ class TrieNode():
         # return False
     
 class Solution:
-	# @param A : string
-	# @param B : list of strings
-	# @return an integer
-	def wordBreak(self, A, B):
+    # @param A : string
+    # @param B : list of strings
+    # @return an integer
+    def wordBreak(self, A, B):
         
         # dp = [ [ 0 for i in range(len(A)) ] for j  in range(len(A))]
         # B = set(B)
